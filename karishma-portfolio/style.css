@@ -1718,3 +1718,40 @@ body.loaded {
     }
 
 }
+
+/* =========================================
+   PROJECT GITHUB LINK
+========================================= */
+
+.project-link {
+    margin-top: 22px;
+}
+
+
+.project-link a {
+    display: inline-block;
+
+    color: var(--blue);
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    border-bottom: 2px solid var(--peach);
+
+    padding-bottom: 3px;
+
+    transition:
+        color 0.3s ease,
+        border-color 0.3s ease,
+        transform 0.3s ease;
+}
+
+
+.project-link a:hover {
+    color: var(--coral);
+
+    border-color: var(--coral);
+
+    transform: translateX(5px);
+}
